@@ -66,7 +66,7 @@ section .main ul li{
 }
 section .main ul li:nth-child(1){
     top: 1.76rem;
-    left: 1.73rem;
+    left: 1.75rem;
 }
 section .main ul li:nth-child(1) img{
     width: 19.15rem;
@@ -81,8 +81,8 @@ section .main ul li:nth-child(2) img{
     height: 19.2rem;
 }
 section .main ul li:nth-child(3){
-    left: 1.73rem;
-    bottom: 1.8rem;
+    left: 1.75rem;
+    bottom: 1.7rem;
 }
 section .main ul li:nth-child(3) img{
     width: 15.1rem;
@@ -90,7 +90,7 @@ section .main ul li:nth-child(3) img{
 }
 section .main ul li:nth-child(4){
     right: 1.9rem;
-    bottom: 1.8rem;
+    bottom: 1.7rem;
 }
 section .main ul li:nth-child(4) img{
     width: 19.2rem;
@@ -217,7 +217,7 @@ section .lookBtn p{
     display: none;
     position: fixed;
     box-sizing: border-box;
-    top: 16.9rem;
+    top: 15rem;
     left: 0;
     right: 0;
     margin: auto;
