@@ -1,0 +1,278 @@
+header{
+    width: 37.5rem;
+    height: 22.95rem;
+    background: url("../images/headerBg.png") center no-repeat;
+    background-size: cover;
+}
+section{
+    box-sizing: border-box;
+    padding-top: 0.8rem;
+    width: 37.5rem;
+    height: 43.75rem;
+    background: url("../images/contentBg.png") center no-repeat;
+    background-size: cover;
+}
+section .messBtn{
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: -0.95rem;
+    padding-top: 0.65rem;
+    padding-right: 1.6rem;
+    width: 5.25rem;
+    height: 4.25rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 0 4rem 4rem 0;
+    color: #0e707b;
+    background-color: #fce515;
+}
+section .messBtn p{
+    line-height: 1.5rem;
+}
+section .messBtn span{
+    display: block;
+    width: 1.2rem;
+    height: 1.8rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0.8rem;
+    margin: auto;
+}
+section .textBox{
+    margin: 0 auto;
+    width: 24.05rem;
+    height: 1.95rem;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: #25a0be;
+}
+section .textBox p{
+    font-size: 1.2rem;
+    line-height: 1.95rem;
+    color: #ffffff;
+}
+section .main{
+    position: relative;
+    margin: 0.3rem auto 0.35rem;
+    width: 33.35rem;
+    height: 33.35rem;
+    background: url("../images/mainBg.png") center no-repeat;
+    background-size: cover;
+}
+section .main ul li{
+    position: absolute;
+}
+section .main ul li:nth-child(1){
+    top: 1.76rem;
+    left: 1.73rem;
+}
+section .main ul li:nth-child(1) img{
+    width: 19.15rem;
+    height: 15.15rem;
+}
+section .main ul li:nth-child(2){
+    top: 1.76rem;
+    right: 1.9rem;
+}
+section .main ul li:nth-child(2) img{
+    width: 15.1rem;
+    height: 19.2rem;
+}
+section .main ul li:nth-child(3){
+    left: 1.73rem;
+    bottom: 1.8rem;
+}
+section .main ul li:nth-child(3) img{
+    width: 15.1rem;
+    height: 19.15rem;
+}
+section .main ul li:nth-child(4){
+    right: 1.9rem;
+    bottom: 1.8rem;
+}
+section .main ul li:nth-child(4) img{
+    width: 19.2rem;
+    height: 15.1rem;
+}
+section .cjBtn{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 0.8rem;
+    width: 29.35rem;
+    height: 4.75rem;
+    text-align: center;
+    color: #fc5c15;
+    background: url("../images/cjBtnBg.png") center no-repeat;
+    background-size: cover;
+}
+section .cjBtn p{
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+}
+section .cjBtn span{
+    font-size: 1rem;
+}
+section .lookBtn{
+    display: none;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 29.35rem;
+    height: 4.75rem;
+    text-align: center;
+    color: #fc5c15;
+    background: url("../images/cjBtnBg.png") center no-repeat;
+    background-size: cover;
+}
+section .lookBtn p{
+    font-size: 1.7rem;
+    line-height: 4.4rem;
+    font-weight: bold;
+}
+
+/*弹窗*/
+.tc.cz{
+    display: none;
+}
+.tc.jq{
+    display: none;
+}
+.tc.mjh{
+    display: none;
+}
+.tc{
+    position: fixed;
+    box-sizing: border-box;
+    top: 30rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 7rem;
+    width: 29.1rem;
+    height: 21.85rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    z-index: 999;
+}
+.tc span:nth-child(1){
+    position: absolute;
+    top: -2.75rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 7.85rem;
+    height: 7.85rem;
+    background: url("../images/tcIcon-1.png") center no-repeat;
+    background-size: cover;
+}
+.tc.jq span:nth-child(1){
+    top: -3.75rem;
+    width: 12.45rem;
+    height: 9.65rem;
+    background: url("../images/tcIcon-2.png") center no-repeat;
+    background-size: cover;
+}
+.tc.mjh span:nth-child(1){
+    background: url("../images/tcIcon-3.png") center no-repeat;
+    background-size: cover;
+}
+.tc span:nth-child(2){
+    position: absolute;
+    top: 1.1rem;
+    right: 1.2rem;
+    display: block;
+    width: 2.45rem;
+    height: 2.45rem;
+    background: url("../images/tcCloseBg.png") center no-repeat;
+    background-size: cover;
+}
+.tc p{
+    font-size: 2rem;
+    color: #fc5c15;
+}
+.tc p:nth-child(4){
+    font-size: 1.7rem;
+    line-height: 3rem;
+}
+.tc div{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 26.25rem;
+    height: 4.4rem;
+    font-size: 1.7rem;
+    color: #25a0be;
+    text-align: center;
+    line-height: 4.4rem;
+    background: url("../images/tcButtonBg.png") center no-repeat;
+    background-size: cover;
+}
+.hdgz{
+    display: none;
+    position: fixed;
+    box-sizing: border-box;
+    top: 16.9rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: .3rem 1.5rem 2.5rem;
+    width: 29.1rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    z-index: 999;
+}
+.hdgz span:nth-child(1){
+    position: absolute;
+    top: 1.1rem;
+    right: 1.2rem;
+    display: block;
+    width: 2.45rem;
+    height: 2.45rem;
+    background: url("../images/tcCloseBg.png") center no-repeat;
+    background-size: cover;
+    z-index: 111;
+}
+.hdgz div{
+    position: relative;
+    margin: 1.8rem 0 1rem -1.5rem;
+    height: 1.5rem;
+    font-size: 1.4rem;
+    color: #3ebabe;
+}
+.hdgz div i{
+    position: absolute;
+    top: 0.2rem;
+    left: 1.65rem;
+    display: inline-block;
+    width: 0.2rem;
+    height: 1.5rem;
+    background-color: #3ebabe;
+}
+.hdgz div span{
+    position: absolute;
+    left: 2.3rem;
+    display: inline-block;
+}
+.hdgz p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    color: #666666;
+}
+/*遮罩层*/
+.mask{
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=70);
+    background-color: #000000;
+    z-index: 100;
+    left: 0px;
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+}
