@@ -82,7 +82,7 @@ section .main ul li:nth-child(2) img{
 }
 section .main ul li:nth-child(3){
     left: 1.75rem;
-    bottom: 1.7rem;
+    bottom: 1.6rem;
 }
 section .main ul li:nth-child(3) img{
     width: 15.1rem;
@@ -90,7 +90,7 @@ section .main ul li:nth-child(3) img{
 }
 section .main ul li:nth-child(4){
     right: 1.9rem;
-    bottom: 1.7rem;
+    bottom: 1.6rem;
 }
 section .main ul li:nth-child(4) img{
     width: 19.2rem;
