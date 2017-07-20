@@ -7,6 +7,7 @@
 })(window);
 
 $(function () {
+    scrollTo(0,128);
     //活动秘籍按钮
     $('.messBtn').on('click',function () {
         $('.hdgz').fadeIn();
