@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5461bf52-cd36-43fe-928b-2c5117e19013" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-    </list>
+    <list default="true" id="5461bf52-cd36-43fe-928b-2c5117e19013" name="Default" comment="" />
     <ignored path="0715电信拼图.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -261,12 +257,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500024483079</updated>
       <workItem from="1500024484688" duration="11062000" />
-      <workItem from="1500517049962" duration="355000" />
+      <workItem from="1500517049962" duration="473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11417000" />
+    <option name="totallyTimeSpent" value="11535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1234" height="777" extended-state="6" />
